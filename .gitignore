@@ -1,6 +1,17 @@
+# Python virtual environment
 venv/
+
+# Python cache
 __pycache__/
+
+# SQLite databases
 *.db
+
+# Data folders (ignore everything except .gitkeep)
 data/raw/*
+!data/raw/.gitkeep
 data/transformed/*
+!data/transformed/.gitkeep
+
+# Environment files
 .env
