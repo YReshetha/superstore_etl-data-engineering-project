@@ -1,1 +1,6 @@
 venv/
+__pycache__/
+*.db
+data/raw/*
+data/transformed/*
+.env
